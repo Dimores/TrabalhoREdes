@@ -6,7 +6,7 @@ import sys
 from datetime import datetime
 from Log import Logs
 
-HOST = '0.0.0.0'
+HOST = '0.0.0.0' #Aceita conexao de qualquer IP
 PORT = 9999
 
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -15,9 +15,9 @@ socket.listen(10)
 print("Servidor rodando em: " + HOST + ":" + str(PORT))
 
 #Usuário
-user = os.path.expanduser('~')
+user = os.path.expanduser('~') 
 user = user[6:] #Pegando da substr 6 até o final
-print(user)
+#print(user)
 
 def fileSend():
     dataHoje = datetime.today().strftime('%d/%m/%Y')
@@ -27,7 +27,7 @@ def fileSend():
         print("[*] Conexao aceita de: ", addr[0], ":", addr[1])
         reqFile = conn.recv(9999)
         try:
-            with  open(reqFile, 'rb') as file_to_send:
+            with open(reqFile, 'rb') as file_to_send:
                 for data in file_to_send:
                     conn.sendall(data)
                 log = Logs("Data: " + str(dataHoje) + " - " + "Hora: " + str(hora) + " - " + "IP: " + str(addr[0]) + " - " + "Porta: " + str(addr[1]) + " - " + "Usuario: " + user + " - " + "Baixou: " + str(reqFile))

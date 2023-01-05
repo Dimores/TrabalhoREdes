@@ -1,7 +1,2 @@
-INFO:root:Data: 28/12/2022 - Hora: 18h23 - IP: 127.0.0.1 - Porta: 37996 - Usuario: diego - Baixou: b'teste.txt'
-INFO:root:Data: 28/12/2022 - Hora: 18h23 - IP: 127.0.0.1 - Porta: 49152 - Usuario: diego - Baixou: b'teste.txt'
-INFO:root:Data: 28/12/2022 - Hora: 18h46 - IP: 127.0.0.1 - Porta: 49162 - Usuario: diego - Erro: <class 'FileNotFoundError'>
-INFO:root:Data: 28/12/2022 - Hora: 18h46 - IP: 127.0.0.1 - Porta: 50102 - Usuario: diego - Erro: <class 'FileNotFoundError'>
-INFO:root:Data: 28/12/2022 - Hora: 18h46 - IP: 127.0.0.1 - Porta: 60138 - Usuario: diego - Erro: <class 'FileNotFoundError'>
-INFO:root:Data: 28/12/2022 - Hora: 18h46 - IP: 127.0.0.1 - Porta: 44730 - Usuario: diego - Erro: <class 'FileNotFoundError'>
-INFO:root:Data: 28/12/2022 - Hora: 18h46 - IP: 127.0.0.1 - Porta: 54776 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 05/01/2023 - Hora: 19h27 - IP: 127.0.0.1 - Porta: 43426 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 05/01/2023 - Hora: 19h27 - IP: 127.0.0.1 - Porta: 50058 - Usuario: diego - Erro: <class 'FileNotFoundError'>
