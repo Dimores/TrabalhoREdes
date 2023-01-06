@@ -46,7 +46,6 @@ client.send(bytes(filename, 'utf-8')) #converte a string filename para byte e en
 def procuraArquivo(filename):
     for i in range(len(arquivos)):
         if(filename == arquivos[i]):
-            print("Deu certo")
             return True
     return False
     
