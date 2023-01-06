@@ -19,20 +19,11 @@ print("Servidor rodando em: " + HOST + ":" + str(PORT))
 #user = user[6:] #Pegando da substr 6 até o final
 #print(user)
 
-''''
-def listaArquivo():
-    conexao, addr = socket.accept()
-    print("[*] Conexao aceita de: ", addr[0], ":", addr[1])
-    # Executa o comando no terminal do SO e retorna o resultado
-    result = subprocess.run("ls", stdout = subprocess.PIPE)
-    socket.send(result.stdout)  # Envia conjunto de bytes (mensagens) para o socket remoto
-    #conexao.close()
-'''
 
 def getUsuario(conn):
     user = conn.recv(9999)
     user = str(user, "utf-8")
-    print(user)
+    #print(user)
     return user
 
 def fileSend():
