@@ -1,2 +1,26 @@
 INFO:root:Data: 05/01/2023 - Hora: 19h27 - IP: 127.0.0.1 - Porta: 43426 - Usuario: diego - Baixou: b'teste.txt'
 INFO:root:Data: 05/01/2023 - Hora: 19h27 - IP: 127.0.0.1 - Porta: 50058 - Usuario: diego - Erro: <class 'FileNotFoundError'>
+INFO:root:Data: 06/01/2023 - Hora: 13h16 - IP: 127.0.0.1 - Porta: 47260 - Usuario: diego - Erro: <class 'FileNotFoundError'>
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 44428 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 47748 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 57728 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 55610 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 43222 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 49554 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 44234 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 43998 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 45338 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 38146 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 41664 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 35424 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 40914 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 44802 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 45146 - Usuario: diego - Baixou: b'client.py'
+INFO:root:Data: 06/01/2023 - Hora: 13h26 - IP: 127.0.0.1 - Porta: 36438 - Usuario: diego - Erro: <class 'FileNotFoundError'>
+INFO:root:Data: 06/01/2023 - Hora: 13h40 - IP: 127.0.0.1 - Porta: 53080 - Usuario: diego - Erro: <class 'FileNotFoundError'>
+INFO:root:Data: 06/01/2023 - Hora: 13h40 - IP: 127.0.0.1 - Porta: 47752 - Usuario: diego - Erro: <class 'FileNotFoundError'>
+INFO:root:Data: 06/01/2023 - Hora: 13h47 - IP: 127.0.0.1 - Porta: 32788 - Usuario:   - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h49 - IP: 127.0.0.1 - Porta: 43722 - Usuario:   - Erro: <class 'FileNotFoundError'>
+INFO:root:Data: 06/01/2023 - Hora: 13h50 - IP: 127.0.0.1 - Porta: 51732 - Usuario:   - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h52 - IP: 127.0.0.1 - Porta: 38644 - Usuario: diego - Baixou: b'teste.txt'
+INFO:root:Data: 06/01/2023 - Hora: 13h52 - IP: 127.0.0.1 - Porta: 45016 - Usuario: diego - Erro: <class 'FileNotFoundError'>

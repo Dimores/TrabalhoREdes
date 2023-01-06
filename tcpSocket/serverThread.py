@@ -15,9 +15,25 @@ socket.listen(10)
 print("Servidor rodando em: " + HOST + ":" + str(PORT))
 
 #Usuário
-user = os.path.expanduser('~') 
-user = user[6:] #Pegando da substr 6 até o final
+#user = os.path.expanduser('~') 
+#user = user[6:] #Pegando da substr 6 até o final
 #print(user)
+
+''''
+def listaArquivo():
+    conexao, addr = socket.accept()
+    print("[*] Conexao aceita de: ", addr[0], ":", addr[1])
+    # Executa o comando no terminal do SO e retorna o resultado
+    result = subprocess.run("ls", stdout = subprocess.PIPE)
+    socket.send(result.stdout)  # Envia conjunto de bytes (mensagens) para o socket remoto
+    #conexao.close()
+'''
+
+def getUsuario(conn):
+    user = conn.recv(9999)
+    user = str(user, "utf-8")
+    print(user)
+    return user
 
 def fileSend():
     dataHoje = datetime.today().strftime('%d/%m/%Y')
@@ -25,6 +41,9 @@ def fileSend():
     while 1:
         conn, addr = socket.accept()
         print("[*] Conexao aceita de: ", addr[0], ":", addr[1])
+        user = getUsuario(conn)
+        result = subprocess.run("ls", stdout = subprocess.PIPE)
+        conn.send(result.stdout)  # Envia conjunto de bytes (mensagens) para o socket remoto
         reqFile = conn.recv(9999)
         try:
             with open(reqFile, 'rb') as file_to_send:
@@ -43,3 +62,4 @@ def fileSend():
 while True:
     client_handler = threading.Thread(target=fileSend())
     client_handler.start()  # Inicia a thread
+    
